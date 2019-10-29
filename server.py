@@ -45,7 +45,7 @@ def handle_client(conn):
 sock = socket.socket()
 log.info('Запуск сервера')
 host = 'localhost'
-port = 135  # 9090
+port = 9090 
 host_ = input('Host: ')
 port_ = input('Port:')
 host_regex = r'[0-2]?[0-9]?[0-9]\.[0-2]?[0-9]?[0-9]\.[0-9]?[0-9]?[0-9]\.[0-2]?[0-9]?[0-9]'
