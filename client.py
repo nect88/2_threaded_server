@@ -39,4 +39,4 @@ while msg != 'exit':
     log.info('Получение ответа от сервера')
     received_msg = receive(sock)
     print(received_msg)
-sock.close(
+sock.close()
